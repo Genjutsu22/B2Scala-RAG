@@ -1,0 +1,9 @@
+# Needham-Schroeder Protocol (simplified)
+
+## Agent: Alice
+
+- **Behavior**:
+  - Alice initiates a session with Bob.
+  - She sends a message containing her nonce and identity, encrypted with Bob's public key.
+  - She waits for a message from Bob, which should contain her nonce and his nonce, encrypted with her public key.
+  - She sends back a message with Bob's nonce, encrypted with his public key.
